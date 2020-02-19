@@ -4,6 +4,10 @@ const Schema = mongoose.Schema;
 const UserSchame = Schema({
   name: String,
   lastname: String,
+  cedula: {
+    type: String,
+    unique: true
+  },
   email: {
     type: String,
     unique: true
