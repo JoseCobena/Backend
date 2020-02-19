@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const ClasesSchema = mongoose.Schema({
-    idmateria:      String ,
     laboratorio:    String ,
     dia:            String ,
     horainicio:     Date   ,
