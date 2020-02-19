@@ -1,4 +1,4 @@
-const Clases = require("../models/clases");
+const Clases = require("../models/clase");
 //crear clases
 function addClase(req, res) {
   const clase = new Clases(body);
@@ -40,7 +40,7 @@ function getClase(req, res) {
     }
   });
 }
-//actualizar y editar clase
+//actualizar clase
 function updateClase(req, res) {
   const claseData = req.body;
   const { id } = req.params;
