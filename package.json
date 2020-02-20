@@ -6,10 +6,10 @@
   "author": "Agustin Navarro Galdon",
   "license": "MIT",
   "dependencies": {
-    "bcrypt-nodejs": "^0.0.3",
+    "bcrypt-nodejs": "^0.0.3", //dependencia para contraseña //
     "body-parser": "^1.19.0",
-    "connect-multiparty": "^2.2.0",
-    "express": "^4.17.1",
+    "connect-multiparty": "^2.2.0", //sibir imagenes a nuestro servidor//
+    "express": "^4.17.1", //dependencia de sistemas de ruta //
     "global": "^4.4.0",
     "jwt-simple": "^0.5.6",
     "moment": "^2.24.0",
