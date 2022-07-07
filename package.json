@@ -12,7 +12,7 @@
     "express": "^4.17.1", //dependencia de sistemas de ruta //
     "global": "^4.4.0",
     "jwt-simple": "^0.5.6",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongoose": "^5.7.0",
     "mongoose-paginate": "^5.0.3",
     "node": "^13.8.0",
